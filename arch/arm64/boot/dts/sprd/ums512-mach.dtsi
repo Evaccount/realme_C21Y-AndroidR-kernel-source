@@ -697,7 +697,7 @@
 	vdd-supply = <&vddusb33>;
 	extcon = <&extcon_gpio>;
 };
-
+/*
 &modem_dbg_log{
 	status = "okay";
  	clock-names = "serdes_eb", "mm_eb", "ana_eb", "dphy_cfg_eb", "dphy_ref_eb", "dsi_csi_test_eb", "cphy_cfg_eb";
@@ -707,7 +707,7 @@
  	mipi-switch-en-gpios = <&ap_gpio 55 GPIO_ACTIVE_HIGH>;
  	mipi-switch-mode-gpios = <&ap_gpio 8 GPIO_ACTIVE_HIGH>;
 };
- 
+*/
 
 &pmic_typec {
 	status = "okay";
